@@ -1,0 +1,2 @@
+ map <F6>       :wa<cr> :! gcc -Wall -o test -lm %<cr> :! ./test<cr>
+imap <F6> <Esc> :wa<cr> :! gcc -Wall -o test -lm %<cr> :! ./test<cr>
